@@ -1,0 +1,9 @@
+dist/
+node_modules/
+.snapshots/
+*.min.js
+.eslintrc.js
+webpack.*
+create-npmrc.js
+*.md
+.npmrc
