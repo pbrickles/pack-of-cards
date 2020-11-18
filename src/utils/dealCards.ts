@@ -16,11 +16,11 @@ export const dealCardsToPlayers = (
   return playersToUpdate;
 };
 
-// export const clearPlayerHands = (players: Array<PlayerInterface>) =>
-//   players.map((player) => {
-//     player.hand = player.hand.splice(0);
-//     return player;
-//   });
+export const clearPlayerHands = (players: Array<PlayerInterface>) =>
+  players.map((player) => {
+    player.hand = player.hand.splice(0);
+    return player;
+  });
 
 export const updateDeckCount = (
   decks: Array<DeckInterface>,
